@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Parontalli</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<header>
+  <nav>
+    <a href="/">Etusivu</a>
+    <a href="/2">Toinen sivu</a>
+    <a href="/3">Kolmas sivu</a>
+  </nav>
+</header>
+
+<%= yield %>
+
+</body>
+</html>
